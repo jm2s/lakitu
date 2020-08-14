@@ -1,0 +1,35 @@
+* {margin: 0; padding: 0}
+
+#container {
+    margin: 0 auto;
+    background: url(bg.jpg);
+}
+
+body {
+    font-family: Opensans;
+    background: linear-gradient(to bottom, #97ddfc 0%, #fff 75%, #3f6e33 100%);
+}
+
+div h1 {
+    color: #266df1;
+    font-size: 40px;
+    text-shadow: 4px 4px 9px rgba( 255, 255, 255, 1);
+    margin: 100px auto;
+    text-align: center;
+}
+
+div button {
+    background: #e52a5e;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 16 px;
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 200px;
+    display: block;
+}
+
+div button:hover{
+    background-color: #fcb2fe;
+}
